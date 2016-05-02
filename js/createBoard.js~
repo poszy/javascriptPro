@@ -1,0 +1,27 @@
+// Will hande the logic of creating the board
+// and will handle the game logic
+
+
+function createBoard(){
+
+    var emptySpot = ' ';
+    var playerOne = ' ';
+    var playerTwo = ' ';
+
+
+    var makeBoard = [];
+
+
+    // loop through array
+
+    cBoard = makeboard.length;
+    fill   = "<ul>";
+
+    for(i = 0; i<cBoard; i++){
+
+	     fill+="<li>" + makeBoard[i] + "</li>";
+
+    }
+
+    document.getElementById("text").innerHTML = fill;
+}
